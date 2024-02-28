@@ -12,13 +12,15 @@ In this project, I am implementing an IT training website using advance HTML and
 
    open root folder of web app in vs code and press `f5`or `f10` to run project locally. 
 
-3. I have compiled the sass file and converted it into css file. If you want to make change in the SASS file then, you have to install SASS compiler by running the following command:
+3. I have compiled the sass file and converted it into css file.
 
-   i. "npm install -g sass"
+   i. If you want to make change in the SASS file then, you have to install SASS compiler by running the following command:
+
+         npm install -g sass
 
    ii. Then run the following command:
   
-        sass --watch fileName.sass fileName.css
+         sass --watch fileName.sass fileName.css
 
 4. Here you have done all things. Now enjoy the running of your code. Thank you!
 
