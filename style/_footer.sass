@@ -1,0 +1,64 @@
+.footer
+  @include variables.color-backColor(white, #225ec5)
+  font-family: 'Raleway', sans-serif
+  padding: 50px
+  display: flex
+  background-attachment: fixed
+
+.leftFooter
+  width: 400px
+  box-sizing: border-box
+
+  a
+    text-decoration: none
+    color: white
+
+.centreFooter
+  width: 600px
+  box-sizing: border-box
+  justify-content: center
+  align-items: center
+
+  li
+    list-style: none
+
+.footerLink
+  margin-left: 200px
+  line-height: 1.5
+  color: rgba(232, 232, 232, 0.77)
+  font-family: 'helvetica Neue', sans-serif
+  text-decoration: none
+  transition: margin-left 0.3s ease
+
+  &:hover
+    color: white
+    margin-left: 220px
+
+.rightFooter
+  flex: 1
+  padding: 20px 0 0 20px
+
+  input
+    border-radius: 5px
+    width: 300px
+    height: 40px
+    border: none
+    padding-left: 15px
+    @include variables.color-backColor(white, variables.$quarter-back-color)
+
+.newsletterInput
+  display: flex
+
+.sendIcon
+  position: relative
+  top: 12px
+  left: -40px
+  margin-left: 10px
+  color: #fff
+
+  /* Icon color
+  cursor: pointer
+
+.imgIcon
+  width: 10%
+  padding: 10px
